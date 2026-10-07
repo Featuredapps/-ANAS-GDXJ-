@@ -1,0 +1,11 @@
+THIS IS A PLACEHOLDER APK FILE FOR THE "كيبورد عربي مزخرف" APPLICATION.
+
+- This file is a placeholder (text file saved with .apk extension) so the download link works. It is NOT a real Android package.
+- To replace with a real APK: upload the compiled keyboard.apk binary to the path assets/apk/keyboard.apk in this repository (via GitHub web upload, git push, or CI).
+- After replacing, users who click "تحميل التطبيق" will download the real APK.
+
+Instructions to replace locally:
+1. Build your keyboard.apk using Android Studio or your build pipeline.
+2. git add assets/apk/keyboard.apk
+3. git commit -m "Add real keyboard.apk"
+4. git push
