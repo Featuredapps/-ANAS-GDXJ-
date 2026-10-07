@@ -202,6 +202,31 @@ a {
   padding: 22px;
 }
 
+/* New: app icon and title layout */
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.app-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.app-icon svg {
+  width: 60%;
+  height: 60%;
+  color: #000;
+}
+
 .app-content h2 {
   font-size: 1.25rem;
   font-weight: 700;
